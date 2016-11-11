@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" href="css/menue.css">
+</head>
+<body>
+	
+	<div class="wrap">
+		<!-- 导航栏 -->
+		<div class="nav">
+			<div>
+				<a href="index.html">HOME</a>
+				<a href="menue.html" id="active">Menu</a>
+				<a href="##">About Us</a>
+				<!-- <img src="images/logo.png" alt="" class="logo"> -->
+				<a href="##">News</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="##">Locations</a>
+				<img src="images/search_icon.png" alt="" class="search">
+			</div>
+		</div>
+
+
+		<!-- 轮播图 -->
+		<div class="header">
+			<div class="header_wrap">
+				<div class="banner clearfix">
+					<img src="images/header2.png" alt="">
+					<img src="images/menue_1.png" alt="">
+					<img src="images/gallery_1.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- search 搜索框-->
+			<div class="searchBox">
+				<div class="s_box">
+				<form action="http://www.baidu.com/s">
+					<input type="text" name="wd">
+					<input type="submit" name="" class="btn">
+				</form>
+					<ul style="color:white"></ul>
+
+				</div>
+			</div>
+
+
+
+		<!-- 内容 -->
+		<div class="content">
+			<!-- new_product -->
+			<div class="Explore Our Menu">
+
+				<div class="productHeader">
+					<span></span>
+					<span>Explore Our Menu</span>
+					<span></span>
+					<p>Choose a quick bite or indulge a little.</p>
+				</div>
+				<div class="product_two clearfix">
+					<div class="float_L">
+						<span>Bakery · Petities</span><p> Bistro Boxes<br> Bottled Drinks<br> Freshly Brewed Coffee<br>Evolution Fresh<br>Chocolate Beverages<br>Kid's Drinks & Others<br>Smocthiers<br>Teas</p>
+						<input type="text" placeholder="Search">
+					</div>
+					<img src="images/menue_2.png" alt="" class="float_R">
+				</div>
+			</div>
+				<div class="pic">
+					<div class="pic_one clearfix">
+						<div class="picDiv">
+							<img src="images/menue_3.png" alt="">
+							<p>HOT BREAKFAST</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="picDiv">
+							<img src="images/menue_4.png" alt="">
+							<p>BAKERY</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="picDiv">
+							<img src="images/menue_5.png" alt="">
+							<p>CHEESE</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="pic_two clearfix">
+						<div class="picDiv">
+							<img src="images/menue_6.png" alt="">
+							<p>SANDWICHES</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="picDiv">
+							<img src="images/menue_7.png" alt="">
+							<p>SALANDS</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="picDiv">
+							<img src="images/menue_8.png" alt="">
+							<p>EVENIGS</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="picDiv">
+							<img src="images/menue_9.png" alt="">
+							<p>YOGURT</p>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			
+			<div class="pairing">
+				<div class="productHeader">
+					<span></span>
+					<span>Find Your Favorite Pairing</span>
+					<span></span>
+					<p>Try our paings,or ask your barista for their recommendations.</p>
+				</div>
+				<div class="rectangle">
+					<div class="con clearfix">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div class="active"></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div class="last"></div>
+					</div>
+					<p><span>COZY</span><span>SAVORY</span><span>SWEET</span><span>SPICY</span><span>BRIGHT</span><span>RICH</span></p>
+				</div>
+			</div>
+			<div class="act">
+				<img src="images/pairing_1.png" alt="">
+				<img src="images/pairing_3.png" alt="">
+				<img src="images/pairing_2.png" alt="">
+				<p><span></span><span></span></p>
+			</div>
+			<div class="dashBoder"></div>
+			<div class="word">Robust and savory Italian seasonings are balanced by the perfec mariage of right,<br>rereshing flvorisin our black tea and lemonade</div>
+		</div>
+
+		
+		<div class="footer">
+			<!-- 返回顶部 -->
+			<div class="returnTop">
+				<p>TOP</p>
+				<i></i>
+			</div>
+			<img src="images/footer.png" alt="">
+			<span>&copy 2016 COSTA COFFE ALL Rights Reseved</span>
+			<p></p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src='js/returnTop.js'></script>
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript">
+// 搜索框
+var search=$(".search");
+var searchBox=$(".searchBox");
+search.on("click",function(){
+	searchBox.slideToggle();
+})
+</script>
+</html>
